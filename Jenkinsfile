@@ -5,7 +5,7 @@ pipeline {
             steps {
               // bat "rmdir  /s /q TicketBookingServiceJunitTesting"
                 bat "git clone https://github.com/Armughan007/tickting-CI-jenkins.git"
-                bat "mvn clean -f tickting-CI-jenkins"
+               // bat "mvn clean -f tickting-CI-jenkins"
             }
         }
         stage('install') {
